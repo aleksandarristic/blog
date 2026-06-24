@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "SRB CERT Has No RSS Feed, So I Made One"
-date: 2026-06-24 00:00:00 +0200
+date: 2026-06-24 14:20:52 +0200
 tags: [infosec, rss, python, srbcert, tools, scraping]
 ---
 
