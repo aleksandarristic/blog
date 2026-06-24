@@ -1,0 +1,7 @@
+_site/
+.jekyll-cache/
+.claude/
+.ruby-lsp/
+.DS_Store
+export/
+vendor/

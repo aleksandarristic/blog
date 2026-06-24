@@ -1,0 +1,13 @@
+<header>
+  <div class="blog-name">
+    <h1><a href="/">{{ site.title }}</a></h1>
+    <p class="blog-description">{{ site.description }}</p>
+  </div>
+  <nav>
+    <a href="/"{% if page.url == "/" %} aria-current="page"{% endif %}>Home</a>
+    <a href="/archive/"{% if page.url == "/archive/" %} aria-current="page"{% endif %}>Archive</a>
+    <a href="/tags/"{% if page.url == "/tags/" %} aria-current="page"{% endif %}>Tags</a>
+    <a href="/about/"{% if page.url == "/about/" %} aria-current="page"{% endif %}>About</a>
+    <a href="/feed.xml">Feed</a>
+  </nav>
+</header>

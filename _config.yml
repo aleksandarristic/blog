@@ -1,0 +1,23 @@
+title: "Aleksandar's Online Notes"
+description: "Personal ramblings and thoughts on Life, the Universe and Everything — including but not limited to Infosec & Tech"
+author: Aleksandar Ristic
+url: https://blog.ristic.in.rs
+baseurl: ""
+permalink: /:year/:month/:title.html
+timezone: Europe/Belgrade
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+feed:
+  path: feed.xml
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - AGENTS.md
+  - workflow.md
+  - spec.md
+  - OUTLINE.md
+  - vendor/

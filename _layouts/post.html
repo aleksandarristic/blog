@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<article>
+  <h1>{{ page.title }}</h1>
+  <p class="post-meta">
+    <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y-%m-%d" }}</time>
+    {% if page.tags.size > 0 %}
+    &middot;
+    {% for tag in page.tags %}<a class="tag" href="/tags/#{{ tag | slugify }}">{{ tag }}</a> {% endfor %}
+    {% endif %}
+  </p>
+
+  {{ content }}
+</article>
+
+<nav class="post-nav">
+  {% if page.previous %}
+  <a href="{{ page.previous.url }}">&larr; {{ page.previous.title }}</a>
+  {% endif %}
+  {% if page.next %}
+  <a href="{{ page.next.url }}">{{ page.next.title }} &rarr;</a>
+  {% endif %}
+</nav>
+
+<p><a href="/archive/">&uarr; Archive</a></p>
