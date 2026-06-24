@@ -14,7 +14,7 @@ tags:
   - "vibe coding"
 ---
 
- <span style="color: #d4d4d4; font-family: -apple-system, &quot;system-ui&quot;, &quot;Segoe WPC&quot;, &quot;Segoe UI&quot;, system-ui, Ubuntu, &quot;Droid Sans&quot;, sans-serif; font-size: 14px;">Back in February I wrote about PyCodeBridge as a way to doom-vibe-code from wherever I happened to be: phone in hand, Discord open, local development machine doing the real work somewhere else.</span>
+Back in February I wrote about PyCodeBridge as a way to doom-vibe-code from wherever I happened to be: phone in hand, Discord open, local development machine doing the real work somewhere else.
 
 That version was fun. It was also a bit of a prototype in spirit: a chat bridge into Codex CLI sessions, with dreams of multiple transports and just enough command handling to make mobile coding feel possible.
 
@@ -218,4 +218,4 @@ Still doom-vibe-code friendly. Just a lot less reckless.
 
 Project:
 
-<a href="https://github.com/aleksandarristic/pycodebridge" data-href="https://github.com/aleksandarristic/pycodebridge" style="color: #3794ff; text-decoration: none;">https://github.com/aleksandarristic/pycodebridge</a>
+<https://github.com/aleksandarristic/pycodebridge>

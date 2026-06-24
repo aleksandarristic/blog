@@ -26,7 +26,7 @@ So, I had to somehow remove the protection from the PDFs in order to be able to 
 
 #### Removing PDF protection
 
-**Enter Google Chrome's (or any other chromium based browser really) builtin PDF reader, and the browser's ability to print files to PDF.** Here are the steps that I had used to remove the protection on the PDFs:
+**Enter Google Chrome's (or any other chromium based browser really) builtin PDF reader, and the browser's ability to print files to PDF.** Here are the steps that I had used to remove the protection on the PDFs:
 
 1.  open the protected PDF in Google Chrome (or other chromium based browser)
 2.  type CMD-P (or CTRL-P) to open browser's print dialog.
