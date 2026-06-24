@@ -2,6 +2,7 @@ _site/
 .jekyll-cache/
 .claude/
 .ruby-lsp/
+.agent-env.local.md
 .DS_Store
 export/
 vendor/

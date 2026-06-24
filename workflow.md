@@ -9,7 +9,7 @@ conventions.
 
 - Public site: `https://blog.ristic.in.rs`
 
-## Discord Dispatch Workflow
+## PyCodeBridge Dispatch Workflow
 
 PyCodeBridge supports direct session commands and multi-agent dispatch:
 
@@ -18,13 +18,26 @@ PyCodeBridge supports direct session commands and multi-agent dispatch:
 - `@claude @codex <prompt>`: have Claude plan first, then Codex execute from that plan.
 - `@codex @gemini <prompt>` or similar fan-out: compare multiple agent outputs on separate worker branches.
 
-## Branch And Session Behavior
+## PyCodeBridge Branch And Session Behavior
 
 - First dispatch in a channel session creates a persistent `task/<repo>/<timestamp>` branch.
 - Worker branches are created per agent and per dispatch.
 - Later dispatches in the same channel session continue the same task branch.
+- Worktrees are only for delegated work via `@`-style agent dispatch. Direct
+  agents use whichever branch/worktree arrangement Aleksandar and the agent
+  agree on for that session.
 - Close the task with `!c done`; prefer `!c done --pr` for this blog so Aleksandar can review before GitHub Pages publishes anything.
 - Use `!c done --merge` only after explicit approval, because merging/pushing can publish the site.
+
+## Local Runtime Environment
+
+- Runtime tooling can differ between sessions. At the start of any task that
+  needs build or preview verification, check the current session for `mise`,
+  Ruby, Bundler, and Jekyll before deciding which verification steps are
+  available.
+- If present, `.agent-env.local.md` may provide a local, gitignored environment
+  note for quick orientation. Treat it as a cache and verify relevant commands
+  before relying on it.
 
 ## Recommended Blog Dispatch Prompts
 
