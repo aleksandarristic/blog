@@ -31,6 +31,7 @@ or changing automation behavior.
 - `assets/css/main.css`: site styling.
 - `assets/images/`: committed image assets used by posts/pages.
 - `_data/tag_aliases.yml`: optional tag normalization data.
+- `.task-management/`: lightweight task ledger for deferred blog/site work.
 - `_site/` and `.jekyll-cache/`: generated local output/cache. Do not edit or commit generated changes from these directories.
 
 ## Local Setup
@@ -100,6 +101,22 @@ automation, consult `workflow.md` before acting. Preserve the same publishing
 discipline from the writing workflow: draft in `_drafts/`, preview with drafts
 enabled, publish only after explicit approval, and use a review step before
 anything that can update the public site.
+
+## Task Management
+
+- Task files live in `.task-management/`.
+- Use `.task-management/TODO.md` for immediate work only.
+- Use `.task-management/BACKLOG.md` for deferred work.
+- Use `.task-management/BUGS.md` for bug backlog items.
+- Use `.task-management/DONE.md` for completed tasks.
+- Use `.task-management/REMOVED.md` for dropped/cancelled tasks.
+- Every task must have a stable ID in format `TASK-####`.
+- Task IDs are global across task management files and are never reused.
+- Use `.task-management/TASK_COUNTER.md` as the source of truth for allocating
+  the next ID. Update the counter in the same change that creates a task.
+- Completed tasks are removed from TODO, BACKLOG, or BUGS and appended to DONE.
+- Removed tasks are removed from TODO, BACKLOG, or BUGS and appended to REMOVED
+  with a reason.
 
 ## Content Conventions
 
