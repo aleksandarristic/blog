@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "YeetTo: A Local URL Router for macOS and Windows"
+date: 2026-07-15 16:10:57 +0200
 tags: [rust, tauri, macos, windows, tools, url routing, productivity]
 ---
 
@@ -12,7 +13,9 @@ Operating systems mostly treat this as a default browser problem.
 
 I wanted it to be a routing problem.
 
-So I built [YeetTo](https://github.com/aleksandarristic/yeet-to).
+So I am building YeetTo.
+
+It is still in the works and not public yet. The target is a fully cross-platform desktop app for macOS and Windows, built around a shared Rust routing engine and a Tauri shell.
 
 ## What It Does
 
@@ -47,7 +50,7 @@ Tools in this space already exist, especially on macOS, but I wanted something t
 - no hidden learning model;
 - portable routing logic that is not married to one OS API.
 
-That last part mattered more than I expected. YeetTo started as a macOS-shaped itch, but the thing I actually wanted was a small routing engine with desktop adapters around it.
+That last part mattered more than I expected. YeetTo started as a macOS-shaped itch, but the thing I actually wanted was a small routing engine with desktop adapters around it, with macOS and Windows treated as first-class targets from the start.
 
 ## Rules Are Boring on Purpose
 
@@ -180,11 +183,13 @@ That boundary made Windows support realistic. The Windows app is not a second pr
 
 ## Platform Status
 
-The current public release path is macOS. There are macOS DMGs on GitHub Releases, and the app is not notarized yet, so first launch still needs the usual right-click Open dance or quarantine removal.
+YeetTo is not public yet. I am still treating it as an in-progress project, not something with a polished download button or a release promise attached.
 
-Windows support is real but not something I want to oversell. The app builds and routes links on Windows through the same shared engine and UI. Browser discovery, profile-aware launching, Default Apps candidate registration, Alt override, diagnostics, and the main routing flows are implemented.
+The goal is full cross-platform support for macOS and Windows. The shared Rust engine owns the routing behavior, while the Tauri desktop shell and platform adapters handle the OS-specific parts.
 
-The missing part is release-quality Windows distribution: signed installers, updater artifacts, SmartScreen policy, and clean-machine validation on Windows 10 and Windows 11. Until that is done, Windows is a build-from-source and manual-validation path, not a polished download button.
+The first Windows build now works, which is a useful milestone. It is not in GitHub Releases yet, and I do not want to present it as a public download before the release path is ready.
+
+That distinction matters because I do not want Windows to be a second product bolted on later. The app is being shaped around the same router, shared UI, and platform facade on both systems. The remaining work is the unglamorous part: packaging, signing, installer behavior, clean-machine validation, updater artifacts, and all the things that make a tool feel safe to hand to someone else.
 
 That is a boring distinction, but an important one.
 
@@ -208,12 +213,10 @@ So the project ended up with more unglamorous pieces than the first idea suggest
 
 None of that is flashy. All of it matters when a tiny utility graduates from "interesting" to "I actually leave this running."
 
-## Install
+## Project Status
 
-The project is at [github.com/aleksandarristic/yeet-to](https://github.com/aleksandarristic/yeet-to).
-
-Current public releases are macOS DMGs from GitHub Releases. Windows can be built from source for now, while packaging and signing catch up.
+YeetTo is still private while I finish the cross-platform foundation and release path.
 
 The stack is Rust, Tauri 2, and a static HTML/CSS/JS frontend. The license is BSD 3-Clause.
 
-YeetTo is still early, but it already solves the thing I wanted solved: links go where they belong, without turning my default browser into a junk drawer.
+YeetTo is still early, but the direction is clear: links should go where they belong, on macOS and Windows, without turning my default browser into a junk drawer.
