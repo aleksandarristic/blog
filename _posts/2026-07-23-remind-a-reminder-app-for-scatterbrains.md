@@ -5,9 +5,9 @@ date: 2026-07-23 13:53:28 +0200
 tags: [android, kotlin, productivity, tools, adhd]
 ---
 
-<img class="app-icon" width="96" src="/assets/images/2026/07/remind-a-reminder-app-for-scatterbrains/app-icon.svg" alt="Remind app icon: a plain white bell on a dark teal square" />
-
 The universe trends toward disorder. Stars burn out, empires crumble, and somewhere between "I should really take that" and "I have definitely already taken that," a small but structurally important fact evaporates from my head without so much as a forwarding address. Entropy doesn't care whether the thing you forgot was a rent payment or your own medication. It only cares to me.
+
+<img class="app-icon" width="96" src="/assets/images/2026/07/remind-a-reminder-app-for-scatterbrains/app-icon.svg" alt="Remind app icon: a plain white bell on a dark teal square" />
 
 I have owned several reminder apps. Every one of them fired exactly once, said its piece, and considered the matter closed — like a coworker who mentions something to you a single time in a hallway and walks off to enjoy the rest of their apparently very trusting life. I do not need politeness. Politeness is how things get forgotten. I needed something with the manners of a smoke alarm, so I built it.
 
