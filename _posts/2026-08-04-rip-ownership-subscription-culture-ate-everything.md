@@ -12,9 +12,9 @@ tags:
   - "opinion"
 ---
 
-![A scratched-up iPod Classic held in hand, screen showing Arctic Monkeys playing, earbuds tangled on the desk behind it](/assets/images/2026/08/rip-ownership-subscription-culture-ate-everything/ipod-nano-hand.jpg)
-
 I just wanted subtitles. Not a movie, not a game, not even the good kind of piracy — just a little `.srt` file so I could understand what people in a language I don't speak were yelling at each other about. My media center pinged a tiny regional subtitle site, the kind run by three people and a cat, the kind that's existed quietly since before "streaming" was a word anyone used unironically, and got back a very polite "rate limited, try again later."
+
+![A scratched-up iPod Classic held in hand, screen showing Arctic Monkeys playing, earbuds tangled on the desk behind it](/assets/images/2026/08/rip-ownership-subscription-culture-ate-everything/ipod-nano-hand.jpg){: .post-photo }
 
 Naturally I assumed I'd hammered the poor thing too hard. Nope. Turns out that site now wants a subscription if you'd like more than a handful of downloads a day, or — heaven forbid — to use its API like a script instead of clicking through banner ads like a good little primate. A fan-run archive of subtitles, the kind of project that used to run on goodwill, a shared hosting plan, and one guy's leftover student budget, now has *tiers*.
 
@@ -32,7 +32,7 @@ And the "free" tier isn't free either — you're just paying in surveillance ins
 
 ## Old Tech I Owned vs. New Tech I Rent
 
-![A stack of CDs in jewel cases on a desk, spines hand-labeled with red stickers](/assets/images/2026/08/rip-ownership-subscription-culture-ate-everything/pile-of-cds.jpg)
+![A stack of CDs in jewel cases on a desk, spines hand-labeled with red stickers](/assets/images/2026/08/rip-ownership-subscription-culture-ate-everything/pile-of-cds.jpg){: .post-photo }
 *Photo: [oatsy40](https://www.flickr.com/photos/oatsy40/36646534013/), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)*
 
 <!-- TODO: swap in / add a "new tech I rent" companion image here (subscription hell, cloud padlock, etc.) -->
