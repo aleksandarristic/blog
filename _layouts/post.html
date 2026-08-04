@@ -25,3 +25,44 @@ layout: default
 </nav>
 
 <p><a href="/archive/">&uarr; Archive</a></p>
+
+<section id="comments">
+  <link rel="stylesheet" href="https://unpkg.com/@waline/client@v3/dist/waline.css" />
+  <style>
+    :root {
+      --waline-font-size: 0.95rem;
+      --waline-theme-color: #8ec07c;
+      --waline-active-color: #b8bb26;
+      --waline-color: #a89984;
+      --waline-bg-color: #1d2021;
+      --waline-bg-color-light: #282828;
+      --waline-bg-color-hover: #3c3836;
+      --waline-border-color: #3c3836;
+      --waline-disable-bg-color: #282828;
+      --waline-disable-color: #665c54;
+      --waline-code-bg-color: #282828;
+      --waline-bq-color: #3c3836;
+      --waline-badge-color: #83a598;
+      --waline-info-bg-color: #282828;
+      --waline-info-color: #83a598;
+      --waline-white: #1d2021;
+      --waline-light-grey: #665c54;
+      --waline-dark-grey: #a89984;
+      --waline-border: 1px solid #3c3836;
+      --waline-box-shadow: none;
+    }
+    #waline,
+    #waline * {
+      font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace !important;
+    }
+  </style>
+  <div id="waline"></div>
+  <script type="module">
+    import { init } from 'https://unpkg.com/@waline/client@v3/dist/waline.js';
+    init({
+      el: '#waline',
+      serverURL: 'https://yadda.ristic.in.rs',
+      path: '{{ page.url }}',
+    });
+  </script>
+</section>

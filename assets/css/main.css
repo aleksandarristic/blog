@@ -402,6 +402,14 @@ footer a:hover {
     border-bottom: none;
 }
 
+/* Comments (Waline) */
+
+#comments {
+    margin-top: 2.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #3c3836;
+}
+
 /* Mobile */
 
 @media (max-width: 600px) {
