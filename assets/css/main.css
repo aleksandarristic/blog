@@ -416,4 +416,20 @@ footer a:hover {
     body {
         padding: 20px 15px;
     }
+
+    nav {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+    }
+
+    nav::-webkit-scrollbar {
+        display: none;
+    }
+
+    nav a {
+        flex: 0 0 auto;
+        white-space: nowrap;
+    }
 }
