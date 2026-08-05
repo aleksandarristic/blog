@@ -9,7 +9,7 @@ layout: default
   <div class="post-preview-title"><a href="{{ post.url }}">{{ post.title }}</a></div>
   <div class="post-preview-date">&#8212; {{ post.date | date: "%B %d, %Y" }}</div>
   <div class="post-preview-body">{{ post.excerpt | strip_html | truncatewords: 55 }}</div>
-  <div class="post-preview-more"><a href="{{ post.url }}#comments"><span class="waline-comment-count" data-path="{{ post.url }}"></span> comments</a> &middot; <a href="{{ post.url }}">Read more &rarr;</a></div>
+  <div class="post-preview-more"><a href="{{ post.url }}#comments"><span class="remark42__counter" data-url="{{ site.url }}{{ post.url }}"></span> comments</a> &middot; <a href="{{ post.url }}">Read more &rarr;</a></div>
 </div>
 {% endfor %}
 
@@ -17,10 +17,11 @@ layout: default
 <p style="margin-top:1rem"><a href="/archive/">All posts &rarr;</a></p>
 {% endif %}
 
-<script type="module">
-  import { commentCount } from 'https://unpkg.com/@waline/client@v3/dist/comment.js';
-  commentCount({
-    serverURL: 'https://yadda.ristic.in.rs',
-    selector: '.waline-comment-count',
-  });
+<script>
+  var remark_config = {
+    host: 'https://yadda.ristic.in.rs',
+    site_id: 'blog',
+    components: ['counter'],
+  };
 </script>
+<script>!function(e,n){for(var o=0;o<e.length;o++){var r=n.createElement("script"),c=".js",d=n.head||n.body;"noModule"in r?(r.type="module",c=".mjs"):r.async=!0,r.defer=!0,r.src=remark_config.host+"/web/"+e[o]+c,d.appendChild(r)}}(remark_config.components||["embed"],document);</script>
