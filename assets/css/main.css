@@ -332,7 +332,7 @@ article figure.app-shot {
 }
 
 article img.post-photo {
-    max-width: 480px;
+    max-width: min(480px, 100%);
     margin: 1.5rem auto;
 }
 
