@@ -9,5 +9,39 @@
 {{ content }}
 </main>
 {% include footer.html %}
+<div id="lightbox" hidden><img alt=""></div>
+<script>
+(function () {
+  var box = document.getElementById('lightbox');
+  var full = box.querySelector('img');
+
+  function open(src, alt) {
+    full.src = src;
+    full.alt = alt || '';
+    box.hidden = false;
+    document.body.classList.add('lightbox-open');
+  }
+
+  function close() {
+    box.hidden = true;
+    full.removeAttribute('src');
+    document.body.classList.remove('lightbox-open');
+  }
+
+  document.addEventListener('click', function (e) {
+    if (!box.hidden) { close(); return; }
+    var img = e.target.closest('article img');
+    if (!img || img.classList.contains('app-icon')) return;
+    var link = img.closest('a');
+    if (link && !/\.(jpe?g|png|gif|webp|svg)$/i.test(link.getAttribute('href') || '')) return;
+    e.preventDefault();
+    open(link ? link.href : img.currentSrc || img.src, img.alt);
+  });
+
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && !box.hidden) close();
+  });
+})();
+</script>
 </body>
 </html>
