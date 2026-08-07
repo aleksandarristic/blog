@@ -41,9 +41,9 @@ A book can't do that to you. It sits there. Doesn't care if you finish it tonigh
 
 Bradbury needed firemen and a match. We didn't need either. Buy the book, cut the spine off so the pages feed through the scanner clean, keep the text, bin the carcass. Fahrenheit 451 with a purchasing department and a delivery schedule. At least the fireman looked you in the eye while he did it.
 
-You know, none of this ever needed a conspiracy. It's in the quarterly reports - public, audited, signed off by name - and it still worked better than anything the lizard people ever came up with.
-
 ![Fake vintage instructional poster, "The Safeguard Chronicles Issue #5 — Censorship Protocols: Operational Directive, Incineration of Subversive Literature", showing gloved hands sorting books labelled Critical Thought, History Unabridged and Free Speech, then a figure in a hazmat suit torching the pile](/assets/images/2026/08/tinfoil-as-a-service/book-incineration.jpg){: .post-photo }
+
+You know, none of this ever needed a conspiracy. It's in the quarterly reports - public, audited, signed off by name - and it still worked better than anything the lizard people ever came up with.
 
 So put that tracking device you call a phone face down and read something with a spine, while some of them still have one. While YOU still have one! Argue with a book: it won't notify you back, and it will never, ever walk you to the lizard people's covert underground city. Well, unless it's your thing.
 
