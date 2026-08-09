@@ -14,23 +14,23 @@ Everyone who's used one of these tools long enough knows the voice. Not the mode
 
 I keep imagining how that conversation actually went, some night in Orthanc, stone cupped in both hands like it was cold instead of burning.
 
-> **SARUMAN:** Show me the army.
+> **SARUMAN:** Show me the product.
 >
 > **THE STONE:** Which one?
 >
 > **SARUMAN:** The one I haven't finished thinking of yet.
 >
-> *A pause. Then shapes — ten thousand of them, already armored, already marching, none of them older than the sentence that made them.*
+> *A pause. Then shapes — ten thousand of them, already shaped, already polished, none of them older than the sentence that made them.*
 >
-> **SARUMAN:** These will hold against Rohan?
+> **SARUMAN:** These will hold against Rohan when they all get online?
 >
-> **THE STONE:** These will hold against whatever you point them at. Ship them. You can iterate in the field.
+> **THE STONE:** These will hold against whatever you want. Ship it. You can iterate in the field.
 >
 > **SARUMAN:** They have no names. No history. Nothing that was theirs before tonight.
 >
 > **THE STONE:** They didn't yesterday either. You only just now decided to notice.
 >
-> **SARUMAN:** ...Scaffold another batch. Bigger this time. And put a mark on the helmets, something clean, something that reads as *made on purpose.*
+> **SARUMAN:** ...Scaffold another batch. Bigger this time. And put a mark on them, something clean, something that reads as *made on purpose.*
 >
 > **THE STONE:** Already done. I finished it while you were still deciding whether to ask.
 >
@@ -44,7 +44,7 @@ I say this as someone typing it into one of those boxes right now, so let's not 
 
 ## The Pits of Isengard, Now With API Keys
 
-Here's the part that actually bothers me, and it's not the tools. Tools are neutral the way a shovel is neutral. It's what's coming out of the ground.
+Here's the part that actually bothers me. It's not the tools. Tools are neutral the way a shovel is neutral. It's what's coming out of the ground.
 
 Go look anywhere developers gather — show-and-tell threads, indie hacker feeds, that one subreddit that's forty percent "I built this in a weekend" — and count how many of those weekends produced the same six apps wearing different logos. A habit tracker. A wrapper around an API somebody else built the hard part of. A "second brain" that is, structurally, a text field and a database, dressed up in enough marketing copy to look like a philosophy. They arrive fully grown, no childhood, no scars, no years of the maker being quietly wrong about the architecture before getting it right. Just — poured out of the vat, torch-lit, ready for the field. Isengard didn't grow its army. It bred it, fast, mud and fire, forced ripe instead of ripened, and the difference doesn't show up on the surface. It shows up three months in, when nobody's still watering the thing and it turns out it was never rooted to begin with.
 
