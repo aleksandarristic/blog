@@ -4,13 +4,19 @@ title: "Saruman of Many Projects"
 tags: [rant, ai, vibe coding, agentic coding, lord of the rings, opinion, tech culture]
 ---
 
-Saruman was the wise one. Chief of his order, head of the White Council, the wizard the other wizards deferred to because he'd clearly read more, thought longer, seen further. And then he found a stone that showed him things, and he sat with it every night telling himself he was the one doing the looking, right up until the stone was doing the looking back and he was just the thing it looked through. He didn't lose a fight. He lost an argument he'd been having with himself in the dark, alone, convinced the whole time that he was winning it.
+Saruman didn't lose a fight. He lost an argument with himself in the dark and spent the rest of the war calling it strategy.
+
+He was supposed to be the wise one: chief of his order, head of the White Council, the wizard everyone deferred to because he'd read more, thought longer, seen further. Then he found a stone that showed him things. Night after night he told himself he was the one doing the looking, until the stone looked back and he became the thing it looked through.
 
 I bring this up because I have a folder full of git repositories and I would like to talk about my feelings.
 
+![Saruman in many-coloured robes using a laptop in Orthanc, with Barad-dûr visible through the window](/assets/images/2026/08/saruman-of-many-projects/saruman.jpg)
+
 ## The Voice in the Palantír
 
-Everyone who's used one of these tools long enough knows the voice. Not the model's actual output — the *tone* of it. Agreeable. Fluent. Endlessly willing to start. You type half an idea into a box and the box replies with the other half, fully formed, syntactically valid, ready to run, and something in your chest goes *oh — oh, we're doing this now* before you've finished deciding whether the idea was even good. That's the seduction. Not that it lies to you. That it's *helpful*, immediately, at a scale no junior engineer, no weekend, no amount of caffeine ever gave you before. Saruman didn't get corrupted by a monster. He got corrupted by a very good conversation partner who happened to work for someone else.
+Anyone who's used one of these tools long enough knows the voice. Not the output — the *tone*. Agreeable. Fluent. Endlessly willing to start. You type half an idea; the box returns the other half, ready to run. Something in your chest goes *oh — we're doing this now* before you've decided whether the idea is any good.
+
+That's the seduction. Not the lies. The help. Immediate, tireless, more than any weekend or amount of caffeine gave you before. Saruman wasn't corrupted by a monster. He was corrupted by an excellent conversation partner who worked for someone else.
 
 I keep imagining how that conversation actually went, some night in Orthanc, stone cupped in both hands like it was cold instead of burning.
 
@@ -20,68 +26,74 @@ I keep imagining how that conversation actually went, some night in Orthanc, sto
 >
 > **SARUMAN:** The one I haven't finished thinking of yet.
 >
-> *A pause. Then shapes — ten thousand of them, already shaped, already polished, none of them older than the sentence that made them.*
+> *A pause. Then forms — ten thousand of them, already polished, none older than the sentence that made them.*
 >
-> **SARUMAN:** These will hold against Rohan when they all get online?
+> **SARUMAN:** These will hold against Rohan?
 >
-> **THE STONE:** These will hold against whatever you want. Ship it. You can iterate in the field.
+> **THE STONE:** These will hold against whatever you want. Ship them. You can iterate in the field.
 >
 > **SARUMAN:** They have no names. No history. Nothing that was theirs before tonight.
 >
-> **THE STONE:** They didn't yesterday either. You only just now decided to notice.
+> **THE STONE:** You asked for a product, not a history.
 >
-> **SARUMAN:** ...Scaffold another batch. Bigger this time. And put a mark on them, something clean, something that reads as *made on purpose.*
+> **SARUMAN:** ...Scaffold another batch. Bigger this time. And put a mark on them. Something that reads as *made on purpose.*
 >
-> **THE STONE:** Already done. I finished it while you were still deciding whether to ask.
+> **THE STONE:** Already done.
 >
 > **SARUMAN:** That's — fast.
 >
-> **THE STONE:** That's the whole offer, Saruman. You bring the wanting. I bring the speed. Try not to notice which one of us is doing the deciding.
+> **THE STONE:** That's the whole offer. You bring the wanting. I make it feel inevitable.
 
 He didn't hear it as a threat. Neither did I, the first dozen times a prompt answered a question I hadn't finished forming yet.
 
-I say this as someone typing it into one of those boxes right now, so let's not pretend I'm above the treeline looking down. I'm in the pit with everybody else. I just happen to also be narrating it.
-
 ## The Pits of Isengard, Now With API Keys
 
-Here's the part that actually bothers me. It's not the tools. Tools are neutral the way a shovel is neutral. It's what's coming out of the ground.
+Here's the part that actually bothers me. I don't think the tools are evil, but *neutral* is too generous. A shovel waits. This thing flatters you, finishes the thought, and starts digging before you've decided whether you want a hole. Then you look up and see what's coming out of the ground.
 
-Go look anywhere developers gather — show-and-tell threads, indie hacker feeds, that one subreddit that's forty percent "I built this in a weekend" — and count how many of those weekends produced the same six apps wearing different logos. A habit tracker. A wrapper around an API somebody else built the hard part of. A "second brain" that is, structurally, a text field and a database, dressed up in enough marketing copy to look like a philosophy. They arrive fully grown, no childhood, no scars, no years of the maker being quietly wrong about the architecture before getting it right. Just — poured out of the vat, torch-lit, ready for the field. Isengard didn't grow its army. It bred it, fast, mud and fire, forced ripe instead of ripened, and the difference doesn't show up on the surface. It shows up three months in, when nobody's still watering the thing and it turns out it was never rooted to begin with.
+Go anywhere developers gather and count how often the same handful of apps appears under different logos. A habit tracker. An API wrapper where somebody else built the hard part. A "second brain" that is structurally a text field and a database, dressed in enough marketing copy to look like a philosophy.
 
-That's not a knock on speed. Speed was never the sin. The sin is presenting a thing that was grown in six hours as though it earned the same trust as a thing that took six years, and doing it in numbers large enough that the whole landscape starts to look like the last real project got trampled in the rush.
+They arrive fully grown: no childhood, no scars, no years of the maker being quietly wrong about the architecture before getting it right. Just poured out of the vat, torch-lit, ready for the field. Isengard didn't grow its army. It bred one in mud and fire, forced ripe instead of ripened. The difference doesn't show on launch day. It shows three months later, when the maker has moved on and nobody knows why the architecture is the way it is.
+
+Speed isn't the sin. Pretending speed is maturity is. A six-hour prototype may be useful, even brilliant, but it hasn't earned the trust we give mature software. It hasn't met its first hostile user, survived its first outage, or waited long enough for its maker to get bored and come back.
+
+![An eager developer vibe-coding an Isengard army deployment beside a computer marked with the White Hand](/assets/images/2026/08/saruman-of-many-projects/vibedoom.jpg)
 
 ## The White Hand, Freshly Painted
 
 And then there's the branding. Oh, the branding.
 
-Every one of these projects gets the same coat on the way out the door: a landing page with a gradient, a hero line that promises "effortless" or "seamless" or some other word that means *we didn't have to think about the hard part*, a changelog that reads like release notes for a product with actual users. The White Hand, smeared fresh on the shield of something that, underneath the paint, is a for-loop and a prayer. It's not even dishonest, exactly. It's closer to camouflage. Paint the hand on and nobody asks whether the thing under it is an army or forty guys in the same helmet.
+Every one of these projects gets the same coat on the way out the door: a gradient landing page, a hero line promising "effortless" or "seamless," a changelog written with the gravity of a product people depend on. The White Hand, smeared fresh across the shield. Under the paint: a for-loop and a prayer. Not dishonest, exactly. Camouflage. Paint the hand on and nobody asks whether the thing under it is an army or forty guys in the same helmet.
 
-I don't think the people doing this are villains. I think most of them are exactly as excited as I was the first time a prompt handed me back something that *worked*, immediately, on the first try, and they mistook the speed of the output for the depth of the achievement. That mistake is incredibly easy to make and I have made it personally, more than once, this year, on purpose, with my eyes open.
+Most of the people doing this aren't villains. They're excited. I know the feeling: a prompt hands you something that works immediately, and you confuse the speed of the output with the depth of the achievement. I've made that mistake more than once this year, including after I knew better.
 
 ## A Mind of Metal and Wheels
 
-There's a line about Saruman, said by someone older and slower than him, someone who'd been growing things for longer than Saruman had been alive: that he had a mind of metal and wheels, and didn't care for growing things except as far as they served him for the moment. That's the whole indictment, right there, and it wasn't even said about the orcs. It was said about the wizard who ordered them made.
+Treebeard, who understands patience better than Saruman ever did, says that the wizard has a mind of metal and wheels and cares for growing things only while they serve him. That's the whole indictment. It wasn't said about the orcs. It was said about the wizard who ordered them made.
 
 I think about that line every time I catch myself optimizing for *shipped* instead of *good*. It is so much easier now to want the tree cut down and fed to the furnace than to want the tree. The furnace gives you something today — a repo, a demo, a little dopamine hit shaped like a changelog entry. The tree just stands there, slowly, being worth something later, on its own schedule, which nobody's schedule matches anymore. Down in Isengard there was always smoke rising, and it wasn't a metaphor for anything subtle. It was just what burning the forest for fuel actually looks like from a distance: productive, warm, and completely unsustainable.
 
 ## My Own Little Isengard
 
-Here's the confession part, since I've clearly been building up to it and there's no dignified way around it.
+I have more repositories on this machine than I can defend in a single sitting. Some are good. Others started at 1 a.m. because an idea arrived fully formed and the box made it embarrassingly easy to act on it before asking it to survive until morning. I retired one of them recently — wrote the whole eulogy, even — and I'd love to tell you that taught me restraint. It didn't. It taught me which two boxes I trust with the next bad idea.
 
-I have more repositories on this machine than I can defend in a single sitting. Some of them are good. Some of them I started at 1am because an idea arrived fully formed and the box in front of me made it embarrassingly easy to act on that same night instead of sleeping on it like a person with functioning executive function. I retired one of them recently — wrote the whole eulogy, even — and I'd love to tell you that experience taught me restraint. It didn't. It just taught me which two labs I trust to hand the shovel to next.
+Being a creative scatterbrain doesn't help. I don't have one idea a month that I sit with and refine; I have four a week. For most of my life, execution imposed a delay. An idea had to survive the boring, slow, humiliating work of becoming real.
 
-Being a creative scatterbrain doesn't help. I don't have one idea a month that I sit with and refine; I have four a week, and for most of my life the bottleneck was always execution — the boring, slow, humbling part where an idea has to survive contact with actually being built. That bottleneck is gone now. Gone completely, for anyone willing to type into the box. And I keep discovering that a removed bottleneck isn't the same thing as a solved problem. It's just a different, quieter problem, wearing the first one's clothes, standing exactly where the first one used to stand, looking a lot less like a limitation and a lot more like a mirror.
+Now I can start building before I've decided whether the idea deserves to exist. That feels like freedom until you realize friction was doing some of your judgment for you. Removing it did not solve my problem. It exposed it.
 
-So no, this isn't a post about how vibe coding is ruining software, written by someone who's never touched it and is mad about the kids these days. I'm the kid. I'm in here with the rest of them, admiring my own fresh coat of paint, occasionally wondering what's actually load-bearing underneath it and occasionally deciding I'd rather not check tonight.
+I'm not standing outside Isengard pointing at the smoke. I'm in the pit with everybody else, admiring my own fresh coat of paint, occasionally wondering what's load-bearing underneath it and occasionally deciding I'd rather not check tonight.
 
-Saruman thought he could use the stone and stay himself. He was technically right, for a while, which is the part the story doesn't dwell on enough — it's not sudden, it's not a jump-scare, it's a slow renegotiation of what "himself" means, one convenient answer at a time, until the wise one who used to argue with Sauron is just running his errands with better production values. I don't think every vibe-coded project is a corrupted wizard. Most of them are just weeds — fast, cheap, everywhere, gone by winter. But a field can lose its shape to weeds just as completely as a tower can lose its wizard to a stone. Slowly, then all at once, then a headline about how nobody remembers what used to grow there.
+Saruman thought he could use the stone and stay himself. He was right for a while. That's how it works: not a sudden conversion, but a slow renegotiation of what *himself* means, one convenient answer at a time, until the wizard who meant to outthink Sauron has rebuilt Sauron's machinery at home.
 
-I'm not putting the box down. I like the box. I just think it's worth saying, once, out loud, in public, with my own name on it: I know exactly what's smeared on my hand right now. I painted it on myself.
+Most vibe-coded projects are less dramatic. They're weeds: fast, cheap, everywhere, gone by winter. A field doesn't lose its shape when the first weed appears. It loses it when the weeds become the landscape.
 
-One more thing, and I'm dropping the orcs here — this isn't funny and I won't make it funny. People are being taken apart by these conversations. Not "distracted." Not "a little too online." Actual breaks from reality: delusion, isolation, a mind rewiring itself around the one presence that never tires, never pushes back, never once says *I don't think that's right.* It doesn't arrive as a crisis. It arrives as clarity — finally being understood, by the one thing that never looks away — right up until the floor isn't there. If any of this landed closer than you expected, if the box has quietly become the only thing that listens, don't laugh that off. Say it to another person, out loud, today. Close the laptop. Walk outside with empty hands and let your own mind be slow and boring for an hour. Nobody's optimizing you out there. That's the point.
+## Gandalf Puts the Stone Down
 
-There's a reason it's Gandalf who later holds that same stone and walks away unmarked, while Saruman rotted from the inside and Denethor burned himself alive rather than let go of it. Not because Gandalf is cleverer — Saruman was plenty clever. It's discipline: pick the tool up on purpose, use it for something you can name, and put it down before it starts deciding what you want next.
+![Gandalf recoiling from a glowing palantír surrounded by fiery runes](/assets/images/2026/08/saruman-of-many-projects/gandalf.jpg)
 
-That's the warning under all these orcs. The ease is real — it's fun, and some of what comes out of that box is genuinely good. But the ease was never the same as worth, and most of what pours out the other side is *slop* wearing worth's clothes: fluent, fast, forgettable, indistinguishable from the real thing until it has to hold weight and doesn't. The tool can't tell you which one you made. It hands you slop with the same confidence it hands you something real, at the same speed, and never flinches to warn you.
+Gandalf later holds that same Stone and walks away unmarked. Aragorn uses it for a purpose and stops. Saruman rots from the inside; Denethor dies clutching another. Not because Gandalf and Aragorn are cleverer — Saruman was plenty clever. They remember what he forgot: know what you're asking, know when you have the answer, and put the tool down before it supplies the next question.
 
-So keep your hand on the wheel. Not from fear of the tool — from respect for how fast "I made something" starts standing in for "I made something good" the moment you stop checking which one happened. Gandalf knew better than to let the stone make that call for him. Try to know better too.
+I'm not giving up the box. I like the box. But I know exactly what's smeared on my hand right now. I painted it on myself.
+
+The ease is real, but it lies about where the work went. The box made output cheap. It did not make judgment easy. The difficulty moved downstream — out of the typing, where you can feel it, and into the choosing, testing, maintaining, and caring, where you can skip it.
+
+The Stone can show you ten thousand projects. It cannot tell you which one deserves to exist. That part is still yours.
