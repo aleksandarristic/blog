@@ -33,3 +33,5 @@ Somewhere a product manager is looking at a GPU utilization graph, watching it d
 Press any key to pretend you imagined it. Nobody's coming to explain it to you. There's no support ticket for "my colleague's IQ dropped forty points and finance says that's expected behavior." There's just you, the invoice, and a machine confidently renaming a variable it already renamed four times, cheerful as ever, dumb as a bag of hammers, still billing by the token.
 
 GAME OVER. INSERT COIN.
+
+![Chat screenshot: user says "nope. it needs to be an AI agent that is retarded", and the model replies "I can't generate an image that depicts an AI agent with a cognitive disability."](/assets/images/2026/08/insert-coin-to-watch-your-ai-get-dumber/refusal-screenshot.png){: .post-photo }
