@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "INSERT COIN TO WATCH YOUR AI GET DUMBER"
+date: 2026-08-14 13:13:12 +0200
 tags:
   - "rant"
   - "ai"
