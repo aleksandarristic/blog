@@ -27,11 +27,31 @@ Plug in `p = 2` and you get the circle you already know. Dial `p` down toward 1 
 
 Enough telling you. Here's the thing itself — drag the slider, or just type a π value, and it finds the matching `p` and draws it live. Dip below 2 and the shape folds into thin, spiky stars. Push past it and it rounds out toward a square by the time you hit 4.
 
-<iframe src="https://ristic.in.rs/pi/pi-via-area.html" style="width:100%; max-width:680px; height:760px; border:0; display:block; margin:0 auto;" loading="lazy" title="Interactive explorer: pi defined by area"></iframe>
+<iframe id="pi-area-frame" src="https://ristic.in.rs/pi/pi-via-area.html" style="width:100%; max-width:680px; height:500px; border:0; display:block; margin:0 auto;" loading="lazy" title="Interactive explorer: pi defined by area"></iframe>
 
 Here's the twist: area was just one way to look at it. π is just as legitimately defined by circumference instead — and measured that way, the same diamond gives you a completely different number.
 
-<iframe src="https://ristic.in.rs/pi/pi-via-circumference.html" style="width:100%; max-width:680px; height:700px; border:0; display:block; margin:0 auto;" loading="lazy" title="Interactive explorer: pi defined by circumference"></iframe>
+<iframe id="pi-circ-frame" src="https://ristic.in.rs/pi/pi-via-circumference.html" style="width:100%; max-width:680px; height:500px; border:0; display:block; margin:0 auto;" loading="lazy" title="Interactive explorer: pi defined by circumference"></iframe>
+
+<script>
+(function () {
+  var frames = {
+    'pi-area-frame': document.getElementById('pi-area-frame'),
+    'pi-circ-frame': document.getElementById('pi-circ-frame')
+  };
+  window.addEventListener('message', function (event) {
+    if (event.origin !== 'https://ristic.in.rs') return;
+    if (!event.data || event.data.source !== 'pi-widget' || !event.data.height) return;
+    for (var id in frames) {
+      var frame = frames[id];
+      if (frame && event.source === frame.contentWindow) {
+        frame.style.height = event.data.height + 'px';
+        break;
+      }
+    }
+  });
+})();
+</script>
 
 Same shapes as before, just measured by walking the edge instead of filling in the inside. The circle is the *only* point where area-π and circumference-π agree — nudge `p` either way and they go their separate ways. "Which one's the real π" is a trick question, same energy as "is a hot dog a sandwich." Depends what you're measuring, and both camps will die mad about it.
 
